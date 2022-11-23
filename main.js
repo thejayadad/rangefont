@@ -4,5 +4,5 @@ slider.oninput = fontSize;
 
 function fontSize(){
     text.style.fontSize = this.value + "px";
-    size.innerText = this.value;
+    size.innerText = this.value + "px";
 }
